@@ -17,7 +17,11 @@ public class G19 {
     	System.out.println(cipher.decrypt("ukq zez ep!"));
 
     	//Create a new cipher using the shifter(#) method
+		cipher.shifter(7);
+
     	//Encrypt and decrypt a message with your new cipher
+		System.out.println(cipher.encrypt("you will never guess what this says"));
+		System.out.println(cipher.decrypt("maxlx lahnew ux lpbmvaxw"));
 
     }
 
